@@ -4,16 +4,14 @@ import styles from "./Navbar.module.css"; // Ensure the CSS module is correctly 
 
 const NavbarComponent = ({ onLogout }) => {
   return (
-    <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home" className="ms-5">
-        <span className={styles.navbarHeader}>Farmer's Portals</span>
+    <Navbar bg="dark" variant="dark" expand="lg"> {/* bg-dark and variant-dark for black background and white text */}
+      <Navbar.Brand href="#home" className="ms-5 text-white">
+        <span className={styles.navbarHeader}>Farmer's Portal</span> {/* Text is already white due to variant-dark */}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          {" "}
-          {/* Updated to ms-auto to push to the right */}
-          <Button onClick={onLogout} variant="outline-danger" className="me-5">
+          <Button onClick={onLogout} variant="outline-light" className="me-5"> {/* outline-light for white outline button */}
             Logout
           </Button>
         </Nav>

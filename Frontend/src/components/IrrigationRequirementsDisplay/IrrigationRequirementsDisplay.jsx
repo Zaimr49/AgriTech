@@ -5,7 +5,7 @@ import styles from "./IrrigationRequirementsDisplay.module.css"; // Ensure you c
 
 const IrrigationRequirementsDisplay = ({ data }) => {
   return (
-    <Card>
+    <Card border="secondary">
       <Card.Header className={styles.irrigationRequirementsHeader} as="h5">
         {data.crop} Irrigation Requirements
       </Card.Header>
