@@ -1,0 +1,13 @@
+/* WeatherDisplay.module.css */
+.cropHeader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.currentStageHeader {
+  margin-top: 2em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}

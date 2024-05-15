@@ -1,0 +1,32 @@
+{
+  "cropName": "Wheat",
+  "lifeCycle": [
+    {
+      "stage": "Germination",
+      "duration": "1-2 weeks",
+      "recommendations": "Keep soil moist to aid germination."
+    },
+    {
+      "stage": "Vegetative",
+      "duration": "6 weeks",
+      "recommendations": "Apply nitrogen-based fertilizer."
+    },
+    {
+      "stage": "Reproductive",
+      "duration": "2 weeks",
+      "recommendations": "Monitor for pests and diseases."
+    },
+    {
+      "stage": "Ripening",
+      "duration": "3-4 weeks",
+      "recommendations": "Reduce watering to prepare for harvest."
+    }
+  ],
+  "currentStage": "Vegetative",
+  "optedActions": [
+    {
+      "date": "2024-06-01",
+      "action": "Fertilized with nitrogen"
+    }
+  ]
+}

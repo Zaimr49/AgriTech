@@ -1,0 +1,31 @@
+{
+  "crop": "Wheat",
+  "waterRequirements": [
+    {
+      "stage": "Germination",
+      "amount": "0.5 inches per week",
+      "advice": "Keep soil slightly moist to ensure germination."
+    },
+    {
+      "stage": "Tillering",
+      "amount": "1 inch per week",
+      "advice": "Maintain steady moisture levels to support root growth."
+    },
+    {
+      "stage": "Stem Extension",
+      "amount": "1.5 inches per week",
+      "advice": "Increase watering to support rapid growth."
+    },
+    {
+      "stage": "Flowering",
+      "amount": "1.25 inches per week",
+      "advice": "Slightly reduce water to prepare for maturation and avoid lodging."
+    },
+    {
+      "stage": "Ripening",
+      "amount": "0.75 inches per week",
+      "advice": "Reduce watering to harden off the crop and prepare for harvest."
+    }
+  ],
+  "lastUpdated": "2024-05-15"
+}
